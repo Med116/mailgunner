@@ -1,12 +1,12 @@
 {
   "name": "mailgunner",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "http mailgun module, a quick way to send an email to one or many recipients using the mailgun api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "readme":"README.md",
+  "readmeFilename":"README.md",
   "repository": {
     "type": "git",
     "url": "http://github.com/Med116/mailgunner"
