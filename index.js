@@ -69,7 +69,7 @@ MailGun.prototype.send = function(){
 			"auth": this.auth,
 			"hostname" : this.hostname,
 			"port": 443,
-			"path": "/v2/" + this.domain + " .com/messages",
+			"path": "/v2/" + this.domain + "/messages",
 			"method":"POST",
 			"headers":{
 				"Content-Type":"application/x-www-form-urlencoded"
